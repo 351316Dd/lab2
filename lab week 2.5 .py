@@ -46,3 +46,11 @@ x = [10, 20, 30, 40, 50]
 for val in x:
 
     print(val * 2)
+    
+
+x=['a','b','c','d','e','f']
+print(x[0:6])
+print (x[5])
+
+range(1,5)
+print(*range(1,5))

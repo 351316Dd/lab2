@@ -9,9 +9,15 @@ y = '20'
 print(x + y)
 
 #2
-my_list = [40, 50, 60, 70, 80, 100, 200, 400]
+my_list = [40, 50, 60, 70, 80, 100, 200, '400']
 my_list_len = len(my_list)
-print(my_list[my_list_len-1])
+print(my_list_len) #=8
+
+print(my_list[my_list_len-1]) 
+#note that when printing a list, the upper number is larger by 1 when assinging single 
+#index,
+# also note that the " " is no longer when indexing a single value
+print(my_list[:my_list_len])
 
 #3
 my_string = 'hello world'

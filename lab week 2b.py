@@ -67,6 +67,10 @@ while i < 5:
     print(my_list[0:i])
     i += 1
 #not in the form of value
+i=1
+while i<5:
+    print(list(range(1,i+1)))
+    i+=1
 
 i = 1
 while i < 5:
@@ -79,6 +83,12 @@ for val in my_list:
     print (*(my_list[0:val]))
 #Final Take 2
 
+i = 1
+my_list = [1,2,3,4]
+while i < 5:
+    print(*my_list[0:i])
+    i += 1
+#Final Take 3
 
 #3
 start_list = [[2, 3, 4], [6, 8, 9]]
