@@ -54,3 +54,42 @@ print (x[5])
 
 range(1,5)
 print(*range(1,5))
+
+for x in range(1, 5):
+    for i in range(1, x + 1):
+        print(i)
+
+
+i = 1
+while i<5:
+    print (*range (1,i+1))
+
+
+i = 1
+while i < 5:
+    print(*range(1, i + 1))
+    i += 1
+
+for x in range (1,5):
+    for y in range(1,x+1):
+        print (y)
+        print ()
+        
+x = ["john", 'JoHn', "jOHN"]
+x = [y.capitalize().strip() for y in x]
+print(*(x))
+
+#easy, now what is the problem with the following
+x = ["john", 'Jo Hn', "jOHN"]
+x = [y.capitalize().strip() for y in x]
+print(*(x))
+#John Jo hn John
+fx_x = []
+for y in x:
+    if y == 'Jo hn':
+        result = 'John'
+    else:
+        result = y
+    fx_x.append(result)
+print (*(fx_x))
+    
