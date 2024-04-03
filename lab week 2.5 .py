@@ -93,3 +93,24 @@ for y in x:
     fx_x.append(result)
 print (*(fx_x))
     
+def my_func(x):
+
+    y = x + 10
+
+    y
+    
+answer = my_func(20)
+
+a = 10
+
+def some_func(b):
+
+    c = a + b
+
+    return c
+
+d = some_func(100)
+
+print(a)
+print(b)
+print(c)
